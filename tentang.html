@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Afgiansyah Mundok</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="tentang.css">
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".animate").forEach((el) => {
+                el.classList.add("start-animation");
+            });
+        });
+    </script>
+</head>
+<body class="d-flex flex-column min-vh-100 bg-secondary text-white">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <h2 class="logo py-2">AM</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kelas.html">Kelas</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tentang.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pendaftaran.html">Daftar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-dark">
+        <div class="container text-center py-5">
+            <h2 class="text-warning fw-semibold" data-aos="fade-up" data-aos-delay="200" 
+            data-aos-duration="800" data-aos-easing="ease-in-out">Tentang Kami</h2>
+            <h1 class="fw-bold" data-aos="fade-up" data-aos-delay="200" 
+            data-aos-duration="800" data-aos-easing="ease-in-out">Mengenal Lebih Dekat <br> dengan <span class="text-warning">Lughoti</span></h1>
+            <p class="mt-4" data-aos="fade-up" data-aos-delay="200" 
+            data-aos-duration="800" data-aos-easing="ease-in-out">Lughoti adalah platform bimbingan belajar bahasa Arab yang menggunakan metode modern dan interaktif. Kami berkomitmen untuk membantu semua orang menguasai bahasa Arab dengan mudah.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <div class="container about-section my-5 bg-secondary">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="about-card text-center shadow-sm mb-3" data-aos="fade-up" data-aos-duration="800">
+                    <h3 data-aos="fade-up" data-aos-delay="200" 
+                    data-aos-duration="800" data-aos-easing="ease-in-out">Visi</h3>
+                    <p data-aos="fade-up" data-aos-delay="200" 
+                    data-aos-duration="800" data-aos-easing="ease-in-out">Menjadi lembaga pembelajaran bahasa Arab terbaik dengan pendekatan inovatif.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="about-card text-center shadow-sm mb-3" data-aos="fade-up" data-aos-duration="800">
+                    <h3 data-aos="fade-up" data-aos-delay="200" 
+                    data-aos-duration="800" data-aos-easing="ease-in-out">Misi</h3>
+                    <p data-aos="fade-up" data-aos-delay="200" 
+                    data-aos-duration="800" data-aos-easing="ease-in-out">Mempermudah pembelajaran bahasa Arab dengan metode yang menyenangkan dan efektif.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="about-card text-center shadow-sm mb-3" data-aos="fade-up" data-aos-duration="800">
+                    <h3 data-aos="fade-up" data-aos-delay="200" 
+                    data-aos-duration="800" data-aos-easing="ease-in-out">Nilai</h3>
+                    <p data-aos="fade-up" data-aos-delay="200" 
+                    data-aos-duration="800" data-aos-easing="ease-in-out">Integritas, inovasi, dan keunggulan dalam pendidikan bahasa Arab.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-light text-center py-3 mt-auto border-top">
+        <p class="mb-0 text-dark">&copy; 2025 Afgiansyah Mundok. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+    <script>
+        AOS.init();
+      </script> 
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afgiansyah Mundok</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="logo.css">
+    <script defer>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".animate").forEach((el) => {
+                el.classList.add("start-animation");
+            });
+        });
+    </script>
+    
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light text-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="Lughoti.html">
+                <h2 class="logo py-2">AM</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="Lughoti.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Kelas.html">Kelas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pendaftaran.html">Daftar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kritik.html">Kritik & Saran</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero bg-secondary text-white text-center py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-start">
+                    <h2 class="text-warning fw-semibold" 
+                        data-aos="fade-up" data-aos-delay="200" 
+                        data-aos-duration="800" data-aos-easing="ease-in-out">
+                        Belajar Bahasa Arab
+                    </h2>
+                    <h1 class="fw-bold mt-2 display-4" 
+                        data-aos="fade-up" data-aos-delay="400" 
+                        data-aos-duration="800" data-aos-easing="ease-in-out">
+                        Mulai Perjalananmu <br> dengan <span class="text-warning">Lughoti</span>
+                    </h1>
+                    <p class="lead mt-3 text-light mb-1" 
+                        data-aos="fade-up" data-aos-delay="600" 
+                        data-aos-duration="800" data-aos-easing="ease-in-out">
+                        Metode interaktif dan modern untuk kefasihan bahasa Arab.
+                    </p>
+                    <a href="pendaftaran.html" class="btn btn-warning text-dark mt-1 px-4 py-2 fw-semibold"
+                        data-aos="zoom-in" data-aos-delay="800" 
+                        data-aos-duration="800" data-aos-easing="ease-in-out">
+                        Daftar Sekarang
+                    </a>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-up" data-aos-delay="600" 
+                data-aos-duration="800" data-aos-easing="ease-in-out">
+                    <img src="gambar1.png" alt="Belajar Online" class="animated-image mt-5">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer bg-light text-center py-3 mt-auto">
+        <p class="mb-0">&copy; 2025 Afgiansyah Mundok. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+    <script>
+        AOS.init();
+      </script>      
+</body>
+</html>

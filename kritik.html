@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritik & Saran - Afgiansyah Mundok</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="kritik.css">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light text-dark">
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <h2 class="logo py-2">AM</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Kelas.html">Kelas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pendaftaran.html">Daftar</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="kritik.html">Kritik & Saran</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="container my-5" data-aos="zoom-in" 
+    data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">
+        <h2 class="text-center text-warning fw-bold mb-4" data-aos="zoom-in" 
+        data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">Kritik & Saran</h2>
+        <p class="text-center mb-4" data-aos="zoom-in" 
+        data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">Saat ini, website kami masih dalam tahap beta. Kritik dan saran dari Anda sangat berharga untuk membantu kami menyempurnakan dan mengembangkan platform ini sebelum peluncuran resmi.</p>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="mb-3" data-aos="zoom-in" 
+                    data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">
+                        <label for="name" class="form-label" data-aos="zoom-in" 
+                        data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">Nama</label>
+                        <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda" required>
+                    </div>
+                    <div class="mb-3" data-aos="zoom-in" 
+                    data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">
+                        <label for="email" class="form-label" data-aos="zoom-in" 
+                        data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda" required>
+                    </div>
+                    <div class="mb-3" data-aos="zoom-in" 
+                    data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">
+                        <label for="message" class="form-label" data-aos="zoom-in" 
+                        data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">Kritik & Saran</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Tulis masukan Anda di sini..." required></textarea>
+                    </div>
+                    <div class="text-center" >
+                        <button type="submit" class="btn btn-warning px-4 py-2 fw-semibold" data-aos="zoom-in" 
+                        data-aos-anchor-placement="top-bottom" data-aos-delay="200"  data-aos-duration="800"  data-aos-easing="linear">Kirim</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer bg-light text-center py-3 mt-auto">
+        <p class="mb-0">&copy; 2025 Afgiansyah Mundok. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+    
+    <script>
+        AOS.init();
+    </script>      
+</body>
+</html>
